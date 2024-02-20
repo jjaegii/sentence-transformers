@@ -69,7 +69,7 @@ class SentenceTransformer(nn.Sequential):
         modules: Optional[Iterable[nn.Module]] = None,
         device: Optional[str] = None,
         cache_folder: Optional[str] = None,
-        trust_remote_code: bool = False,
+        trust_remote_code: bool = True,
         revision: Optional[str] = None,
         token: Optional[Union[bool, str]] = None,
         use_auth_token: Optional[Union[bool, str]] = None,
